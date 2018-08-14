@@ -1,24 +1,32 @@
-# README
+# Appli Search Movies (by BoyzIICode)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Servie avec amour par William, Gino.
 
-Things you may want to cover:
+## App HEROKU:
+http://started-from-bottom.herokuapp.com/
 
-* Ruby version
+## Check l'app en mode local
 
-* System dependencies
+```
+$ git clone https://github.com/Gyenh/from_scratch_or_not
+```
+```
+$ bundle install --without production
+```
+```
+$ rails db:migrate
+```
+```
+$ rails db:seed
+```
+```
+$ rails server
+```
+Puis dans la barre d'url du Navigateur web
+```
+$ localhost:3000
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Version ruby
+ruby '2.5.1'
+rails '5.2.0'
