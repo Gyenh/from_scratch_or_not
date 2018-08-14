@@ -1,0 +1,15 @@
+/* CSS DE L'AVATAR */
+#francois {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  border: solid #fd264f 5px;
+}
+
+
+@media all and (max-width: 1024px){
+  #francois{
+    float: none;
+  }
+}
