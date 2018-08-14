@@ -1,6 +1,7 @@
 # Site Only HTML && CSS
 
 Servie avec amour par William, Gino.
+Et tous nos remerciements à Maître STEPHANE, sans qui nous n'aurions jamais eu de code aussi propre. Parce que chez Boyz2Code, nous faisons que du sale.
 
 ## App HEROKU:
 http://started-from-bottom.herokuapp.com/
