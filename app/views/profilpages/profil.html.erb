@@ -1,0 +1,73 @@
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Good Morning</h1>
+    <p>Welcome to your profil page</p>
+  </div>
+</div>
+
+
+
+<div>
+  <%= image_tag 'francois.png', :width => 200, id: "francois" %>
+</div>
+
+
+
+
+<div class="tabs">
+  <div class="tab-2">
+    <label for="tab2-1">Informations</label>
+    <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+    <div>
+      <h4>Naissance</h4>
+      14 mars 1879
+      <h4>Décès</h4>
+      <p>18 avril 1955 (à 76 ans)</p>
+      <p>Albert Einstein (prononcé en allemand [ˈalbɐt ˈaɪnʃtaɪn] Écouter) né le 14 mars 1879N 1 à Ulm, dans le Wurtemberg (Allemagne), et mort le 18 avril 1955 à Princeton, dans le New Jersey (États-Unis), est un physicien théoricien. Il fut successivement allemand, apatride (1896), suisse (1901) et de double nationalité helvético-américaine (1940)1. Il fut le camarade d'études de Mileva Marić, puis, en premières noces, son époux. Il fut le cousin d'Elsa Einstein, dont il fut, en secondes noces, l'époux.<br>
+        Il publie sa théorie de la relativité restreinte en 1905 et sa théorie de la gravitation dite relativité générale en 1915. Il contribue largement au développement de la mécanique quantique et de la cosmologie, et reçoit le prix Nobel de physique de 1921 pour son explication de l’effet photoélectrique2. Son travail est notamment connu du grand public pour l’équation E=mc2, qui établit une équivalence entre la matière et l’énergie d’un système.<br>
+        Il est aujourd'hui considéré comme l'un des plus grands scientifiques de l'histoire, et sa renommée dépasse largement le milieu scientifique. Il est la personnalité du xxe siècle selon l'hebdomadaire Time. Dans la culture populaire, son nom et sa personne sont directement liés aux notions d'intelligence et de savoir.</p>
+      </div>
+    </div>
+    <div class="tab-2">
+      <label for="tab2-2">Cards</label>
+      <input id="tab2-2" name="tabs-two" type="radio">
+      <div>
+        <div class="card-collapse">
+
+          <div class="card">
+            <div>
+              <%= image_tag "francois.png", :width => 50, class:"card-user"%>
+            </div>
+            <div class="card-description">
+              <h3>Francois</h3>
+              <p>You're the ONE !</p>
+              <p>Thanks for your help !</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <%= image_tag "francois.png", :width => 50, class:"card-user"%>
+            </div>
+            <div class="card-description">
+              <h3>Card n°1</h3>
+              <p>Hello !</p>
+              <p>This is a card n°1</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <%= image_tag "francois.png", :width => 50, class:"card-user"%>
+            </div>
+            <div class="card-description">
+              <h3>Your card</h3>
+              <p>Some text here</p>
+              <p>Good morning</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

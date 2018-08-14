@@ -1,0 +1,17 @@
+body {
+  background-color: #ee564a;
+  font-family: "Helvetica", "sans-serif";
+  margin: 0%;
+  font-size: 15px;
+}
+
+#center {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  color: white;
+  padding: 10px;
+  text-align: justify;
+}

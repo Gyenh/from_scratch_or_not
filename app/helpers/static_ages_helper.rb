@@ -1,0 +1,2 @@
+module StaticAgesHelper
+end

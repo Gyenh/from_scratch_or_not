@@ -1,0 +1,37 @@
+<nav>
+
+  <div id="menu">
+    <div class="logo">
+      <%= image_tag 'logo.png', :width => 300, class:"logo" %>
+    </div>
+
+    <ul class="cotegauche">
+      <li>
+        <div class="dropdown">
+          <button class="button"><span>Menu </span></button>
+          <div class="dropdown-content">
+            <%= button_to root_path, :class => "button", method: :get do %>
+            <span>Home </span>
+            <% end %>
+            <button class="button"><span>About us </span></button>
+            <button class="button"><span>Contact </span></button>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+  <div id="menugauche">
+
+    <ul class="cotegauche">
+      <li>
+        <%= button_to "/profile", :class => "button", method: :get do %>
+        <span> My profile</span>
+        <% end %>
+      </li>
+    </ul>
+    <div class="avatar">
+      <%= image_tag 'francois.png', :width => 50, class: "avatar" %></div>
+    </div>
+
+  </nav>

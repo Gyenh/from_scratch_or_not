@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rrrrrruby !</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <%= favicon_link_tag asset_path('ico.png'), :rel => 'icon', :type =>  'image/png' %>
+</head>
+
+<body>
+  <header>
+    <%= render "layouts/header" %>
+  </header>
+  <center>
+    <%= yield %>
+  </center>
+  <footer>
+    <%= render "layouts/footer" %>
+  </footer>
+</body>
+</html>
