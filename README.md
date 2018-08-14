@@ -14,12 +14,6 @@ $ git clone https://github.com/Gyenh/from_scratch_or_not
 $ bundle install --without production
 ```
 ```
-$ rails db:migrate
-```
-```
-$ rails db:seed
-```
-```
 $ rails server
 ```
 Puis dans la barre d'url du Navigateur web
